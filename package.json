@@ -1,0 +1,31 @@
+{
+  "name": "theme-vite-free",
+  "version": "1.0.1",
+  "private": true,
+  "author": {
+    "name": "John Leider",
+    "email": "john@vuetifyjs.com"
+  },
+  "scripts": {
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite",
+    "ct-test": "npx cypress open --component",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mdi/font": "5.9.55",
+    "cypress": "^11.1.0",
+    "roboto-fontface": "*",
+    "vue": "^3.2.37",
+    "vuetify": "^3.0.0-beta.12",
+    "webfontloader": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "vite": "^3.0.7",
+    "vite-plugin-vuetify": "^1.0.0",
+    "vue-cli-plugin-vuetify": "~2.5.1"
+  },
+  "type": "module"
+}
